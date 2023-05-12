@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap links -->
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" id="logo"><span id="span1">E</span>Lectronic <span>Shop</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="./images/menu.png" alt="" width="30px"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">SHOP</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul>
+                <li><a class="dropdown-item" href="#" onmouseover="changeImg('./images/c5.png')">Mobile &
+                     Accessories</a></li>
+                <li><a class="dropdown-item" href="Products.html" onmouseover="changeImg('./images/p6.png')">Mobile</a>
+                </li>
+                <li><a class="dropdown-item" href="Products.html"
+                    onmouseover="changeImg('./images/h1.png')">Headphones</a></li>
+                <li><a class="dropdown-item" href="Products.html" onmouseover="changeImg('./images/phone1.png')">Mobile
+                    Covers</a></li>
+                <li><a class="dropdown-item" href="Products.html" onmouseover="changeImg('./images/a1.png')">Air
+                    Pods</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#" onmouseover="changeImg('./images/c4.png')">Computer& Laptop
+                    Accessories</a></li>
+                <li><a class="dropdown-item" href="Products.html"
+                    onmouseover="changeImg('./images/laptop2.png')">Laptops</a></li>
+                <li><a class="dropdown-item" href="Products.html" onmouseover="changeImg('./images/pcm1.png')">Gaming
+                    Monitor</a></li>
+                <li><a class="dropdown-item" href="Products.html" onmouseover="changeImg('./images/pr11.png')">Gaming
+                    Mouse</a></li>
+                <li><a class="dropdown-item" href="Products.html" onmouseover="changeImg('./images/t1.png')">Tablets</a>
+                </li>
+              </ul>
+              <ul>
+                <div class="dropdown-item">
+                  <img src="./images/c3.png" alt=" Electronic Shop  " id="slider">
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">lOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">CART</a>
+          </li>
+        </ul>
+        <form class="d-flex" id="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+
+  <!-- home content -->
+
+  <section class="home">
+    <div class="content">
+      <h1> <span>Electronic Products</span>
+        <br>
+        Up To <span id="span2">50%</span> Off
+      </h1>
+      <p>A compact, portable personal computer (PC), often known as a laptop,<br> laptop computer, or notebook computer,
+        is made comprised of an alphanumeric keyboard and screen.
+      </p>
+      <div class="btn"> <a class="nav-link" href="Products.html"><button>Shop Now</button> </a></div>
+
+    </div>
+    <div class="img">
+      <abbr title="Electronic Products"><img src="./images/image1.png" alt=""></abbr>
+    </div>
+
+  </section>
+
+  <!-- home content -->
+
+
+  <!-- product cards -->
+
+  <div class="container" id="product-cards">
+    <h1 class="text-center">OUR PRODUCTS</h1>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/p6.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Iphone 13 pro</h3>
+            <p class="text-center">128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM<br> 12 MP, f/1.5, 26mm
+              (wide), 1/1.7", 1.9µm, dual pixel PDAF, sensor-shift OIS
+              12 MP, f/2.8, 77mm (telephoto), PDAF, 1/3.5", OIS, 3x optical zoom
+              12 MP, f/1.8, 13mm, 120˚ (ultrawide), 1/3.5", PDAF</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$1000 </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/a1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Airpods</h3>
+            <p class="text-center">The AirPods Pro (1st generation) sounds better than the originals and has a way
+              better fit and active noise cancelling to boot.</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$100 </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/laptop2.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">HP VICTUS 15 FA0031DX - Alder Lake - 12th Gen Core</h3>
+            <p class="text-center">i5 Octa-Core Processor 08GB to 32GB 512GB to 02-TB SSD 4-GB NVIDIA GeForce GTX1650
+              GDDR6 Graphics 15.6" Full HD IPS 144Hz MicroEdge AG Display B&O Play Backlit KB W11 (Mica Silver)</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$200 </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/t1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Apple 2021 10.2-inch iPad (Wi-Fi, 64GB)</h3>
+            <p class="text-center">Space Gray (9th Generation)
+              Gorgeous 10.2-inch Retina display with True Tone A13 Bionic chip with Neural Engine</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$300 </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/w1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Amazfit Bip 3 Smart Watch for Android iPhone</h3>
+            <p class="text-center">Health Fitness Tracker with 1.69" Large Display,14-Day Battery Life, 60+ Sports
+              Modes, Blood Oxygen Heart Rate Monitor, 5 ATM Water-resistant (Black)</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$50.60 </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/pcm1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">KOORUI 27 Inch QHD Gaming Monitor</h3>
+            <p class="text-center">144 Hz, VA, 1ms, DCI-P3 90% Color Gamut, FreeSync G-Sync Compatible, (2560x1440,
+              HDMI, DisplayPort) Black</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$600 </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/phone1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Apple iPhone X,</h3>
+            <p class="text-center">64GB, Space Gray - Fully Unlocked (Renewed Premium)</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$500 </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/h1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Razer Kraken for Xbox One Gaming Headset</h3>
+            <p class="text-center">Optimized weight for extended wear
+              Closed ear cup design for maximum comfort</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2 class="text-center">$60 </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Electronic Shop</h3>
+            <p>
+              Karachi <br>
+              Sindh <br>
+              Lahore <br>
+              Pakistan <br>
+            </p>
+            <strong>Phone:</strong> +92-311-111-7359 <br>
+            <strong>Email:</strong> electronicshop@gmail.com <br>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Usefull Links</h4>
+            <ul>
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="Products.html">Shop</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">Cart</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+
+            <ul>
+              <li><a href="#">PS 5</a></li>
+              <li><a href="#">Computer</a></li>
+              <li><a href="#">Gaming Laptop</a></li>
+              <li><a href="#">Mobile Phone</a></li>
+              <li><a href="#">Gaming Gadget</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Follow To The Electronic Shop For Latest upload.</p>
+
+            <div class="socail-links mt-3">
+              <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.skype.com/en/features/skype-web/"><i class="fa-brands fa-skype"></i></a>
+              <a href="https://pk.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </footer>
+  <!-- footer -->
+  <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    function changeImg(imgchanger) {
+      document.getElementById('slider').src = imgchanger;
+    }
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>
